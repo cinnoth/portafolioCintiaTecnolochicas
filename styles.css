@@ -1,0 +1,41 @@
+*{
+    font-family: "Montserrat", system-ui;
+}
+header{
+    background-color: #285D66;
+}
+.nav-item a{
+    color: #B7DBC8;
+}
+
+#contacto{
+    background-color: #6da095;
+    color: #E1DF66;
+}
+#contacto p{
+    color: #ffffff;
+}
+#buttonn{
+    background-color: #E1DF66;
+    color:#285D66;
+    border: 1px solid #285D66;
+}
+#buttonn:hover{
+    background-color: #285D66;
+    color: #E1DF66;
+    border: 1px solid #E1DF66;
+}
+footer{
+    background-color: #285D66 ;
+    border-top: 1px solid #E1DF66;
+}
+footer li a{
+    color: #E1DF66;
+}
+footer span a{
+    text-decoration: none;
+    color: #E1DF66;
+}
+footer span{
+    color: #B7DBC8;
+}
