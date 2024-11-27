@@ -3,9 +3,16 @@
 }
 header{
     background-color: #285D66;
+    border-bottom: 5px solid #E1DF66;
+}
+header span, i{
+    color:#E1DF66;
 }
 .nav-item a{
     color: #B7DBC8;
+}
+.nav-item a:hover{
+    color: #E1DF66;
 }
 
 #contacto{
@@ -27,7 +34,7 @@ header{
 }
 footer{
     background-color: #285D66 ;
-    border-top: 1px solid #E1DF66;
+    border-top: 5px solid #E1DF66;
 }
 footer li a{
     color: #E1DF66;
