@@ -1,6 +1,12 @@
 *{
     font-family: "Montserrat", system-ui;
 }
+body{
+    background-color: #e4e9e6;
+}
+.album{
+    background-color: #e4e9e6;
+}
 header{
     background-color: #285D66;
     border-bottom: 5px solid #E1DF66;
@@ -14,20 +20,48 @@ header span, i{
 .nav-item a:hover{
     color: #E1DF66;
 }
-
+main h1, .habilidades h3{
+    color:#285D66;
+    font-weight: bold;
+}
+main h2{
+    color: #E1DF66;
+}
+.habilidades{
+    background-color: #6da095;
+    color: #e4e9e6;
+}
 #contacto{
     background-color: #6da095;
     color: #E1DF66;
 }
-#contacto p{
+#contacto p, .testimonios p{
+    color: #e4e9e6;
+    
+}
+.testimonios{
+    margin-bottom: 3rem;
+}
+.card{
+    background-color: #6da095;
+}
+.proyectos p{
+    color: #285D66;
+    font-weight: bold;
+}
+.boton1 a{
+    text-decoration: none;
     color: #ffffff;
 }
-#buttonn{
+.boton1{
+    margin:0.5rem;
+}
+#buttonn, .button1, .boton1{
     background-color: #E1DF66;
     color:#285D66;
     border: 1px solid #285D66;
 }
-#buttonn:hover{
+#buttonn:hover, .button1:hover, .boton1:hover{
     background-color: #285D66;
     color: #E1DF66;
     border: 1px solid #E1DF66;
